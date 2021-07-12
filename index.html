@@ -1,0 +1,58 @@
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascômetro</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" href="images/barbecue.png">
+</head>
+<body>
+    <header>
+        <h2>Churrascômetro</h2>
+        <img class="iconeChurrasqueira" src="images/churrasqueira.png" alt="churrasqueira">
+    </header>
+    <h2>Uma solução rápida e fácil para o seu churrascão com a família!</h2>
+    <div class="container">
+        <div class="container-input">
+            <div>
+                <img src="images/playtime.png" alt=""><input class="inputs" type="number" placeholder="Crianças">
+            </div>
+            <div>
+                <img src="images/men.png" alt=""><input class="inputs" type="number" placeholder="Adultos">
+            </div>
+            <div>
+                <img src="images/clock.png" alt=""><input class="inputs" type="number" placeholder="Duração (Horas)">
+            </div>
+            <div>
+                <input id="enviar" type="submit" placeholder="Calcular" value="Calcular" onclick="calcular()"> 
+            </div>
+        </div>
+        <div class="results">
+            <div id="carne">
+                <img src="images/steak.png" alt=""> 
+                <span id="num_carne">2.5 kg de Carne</span> 
+            </div>
+            <div id="beer">
+                <img src="images/toast.png" alt=""> 
+                <span id="num_cerveja">3l de Cerveja</span>
+            </div>
+            <div id="coca">
+                <img src="images/cola.png" alt=""> 
+                <span id="num_refri">5l de Refrigerante</span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Copyright © Gustavo Gava 
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="assets/script.js"></script>
+</body>
+</html>
